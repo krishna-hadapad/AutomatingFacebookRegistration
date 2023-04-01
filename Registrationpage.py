@@ -17,8 +17,8 @@ driver.find_element(By.LINK_TEXT,"Create new account").click()
 #Adding Text to Input fields
 driver.find_element(By.XPATH,"//input[@name='firstname']").send_keys("Krishna")
 driver.find_element(By.XPATH,"//input[@name='lastname']").send_keys("Hadapad")
-driver.find_element(By.XPATH,"//input[@name='reg_email__']").send_keys("9886145745")
-driver.find_element(By.XPATH,"//input[@name='reg_passwd__']").send_keys("Krishna@1997")
+driver.find_element(By.XPATH,"//input[@name='reg_email__']").send_keys("95745")
+driver.find_element(By.XPATH,"//input[@name='reg_passwd__']").send_keys("K@1997")
 driver.find_element(By.XPATH,"//input[@value='2']").click()
 
 
